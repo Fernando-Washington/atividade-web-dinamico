@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estações do ano</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Estações do ano</h1>
+    <div class="topo">
+        <div>
+            <label for="">Informe o mês: </label>
+            <input type="number" name="i_mes" id="i_mes"
+                min="1" max="12" value="1" style="width: 6em"
+                onchange = calcula_estacao()
+            > 
+        </div>    
+        
+        <div class = "resultados">
+            <label id = "nome_mes">??</label>            
+            <label id="nome_estacao">??</label>                     
+            <!--<label id="nome_cor">??</label> -->            
+        </div>
+
+
+    </div>
+
+    <div class="estacoes" id = "estacoes">
+        <div class = "cores_est">
+            <div class="cor">?</div>
+            <div class="cor">?</div>
+            <div class="cor">?</div>
+            <div class="cor">?</div>
+            <div class="cor">?</div>
+        </div>
+
+        <div class="estacao primavera">
+            <img src="./imagens/primavera.png" alt="">
+        </div>
+        <div class="estacao verão">
+            <img src="./imagens/verao.png" alt="">
+        </div>
+        <div class="estacao outono">
+            <img src="./imagens/outono.png" alt="">
+        </div>
+        <div class="estacao inverno">
+            <img src="./imagens/inverno.png" alt="">
+
+        </div>
+        
+
+    </div>
+
+    <label for=""id ="fonte_img" >fonte imagem: https://vestindoautoestima.com.br/wp-content/uploads/2021/01/as-cartelas-de-coloracao-pessoal-e-as-estacoes-do-ano.jpg</label>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>

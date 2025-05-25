@@ -1,0 +1,77 @@
+*{
+    font-size: 30px;
+}
+
+body
+{
+    width: 600px;
+    height: 1200px;    
+    background-color: white;    
+}
+
+h1{
+    font-size: 36px;
+}
+
+.meses{
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    /*width: 120px;*/
+}
+
+.titulo{
+    width: 100%;
+}
+
+.topo{
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    flex-direction: column;    
+    
+}
+
+.resultados{
+    width: 1200px;
+    padding: 15px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cores_est{
+    width : 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cor{
+    border: 1px solid black;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+
+.estacoes{
+    width: 1500px;
+    margin:10px;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+
+}
+
+.estacao{
+    /*padding: 15px;*/
+    padding-top: 100px;
+}
